@@ -10,6 +10,78 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".view.AbrirEstoqueActivity"
+            android:label="@string/title_activity_abrir_estoque"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".view.VerificarEstoqueActivity"
+            android:label="@string/title_activity_verificar_estoque"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.EstoquePrincipalActivity"
+            android:label="@string/title_activity_estoque_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.PesqProdutoActivity"
+            android:label="@string/title_activity_pesq_produto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.CadProdutoActivity"
+            android:label="@string/title_activity_cad_produto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.ProdutoActivity"
+            android:label="@string/title_activity_produto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.FuncionarioActivity"
+            android:label="@string/title_activity_funcionario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.CadFuncActivity"
+            android:label="@string/title_activity_cad_func"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.PesqFuncActivity"
+            android:label="@string/title_activity_pesq_func"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.RelatorioVendaActivity"
+            android:label="@string/title_activity_relatorio_venda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.RelatorioActivity"
+            android:label="@string/title_activity_relatorio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MovimentacaoNovaActivity"
+            android:label="@string/title_activity_movimentacao_nova"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MovimentacaoSaidaActivity"
+            android:label="@string/title_activity_movimentacao_saida"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MovimentacaoEntradaActivity"
+            android:label="@string/title_activity_movimentacao_entrada"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.MovimentacaoInicialActivity"
+            android:label="@string/title_activity_movimentacao_inicial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.PesqClienteActivity"
+            android:label="@string/title_activity_pesq_cliente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.CadClienteActivity"
+            android:label="@string/title_activity_cad_cliete"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.ClienteActivity"
+            android:label="@string/title_activity_cliente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
