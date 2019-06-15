@@ -50,4 +50,7 @@
     <string name="hint_fone_func">Digite o telefone do funcionario</string>
     <string name="hint_login_func">Digite o login do funcionario</string>
     <string name="hint_matricula_func">Digite a matricula do funcionario</string>
+    <string name="titulo_pesq_func">Pesquisar Funcionarios</string>
+    <string name="button_pesq">Pesquisar</string>
+    <string name="hint_pesq_func">O que deseja pesquisar?</string>
 </resources>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:openDrawer="start"
+    android:background="#009999"
+    >
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -22,4 +26,58 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</android.support.v4.widget.DrawerLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_pesq_func"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="#FF5722"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_pesq_func"
+        android:background="#fff"
+        android:textColorHint="#000"
+        android:padding="5sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editPesquisar"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/button_cad"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:background="#4dd0e1"
+            android:layout_margin="5sp"
+            android:onClick="cadastrar"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/voltar"
+            android:textSize="20sp"
+            android:background="#4dd0e1"
+            android:layout_margin="5sp"
+            android:onClick="voltar"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lista_func"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
