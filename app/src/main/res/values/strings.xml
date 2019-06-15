@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ControleGlpMobile</string>
+    <string name="app_name">Controle GLP</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -31,4 +31,23 @@
     <string name="title_activity_estoque_principal">EstoquePrincipalActivity</string>
     <string name="title_activity_verificar_estoque">VerificarEstoqueActivity</string>
     <string name="title_activity_abrir_estoque">AbrirEstoqueActivity</string>
+    <string name="chama_tela_cad_func">Cadastrar Funcionarios</string>
+    <string name="chama_tela_pesq_func">Pesquisar Funcionarios</string>
+    <string name="voltar">Voltar</string>
+    <string name="titulo_func">Funcionarios</string>
+    <string name="titulo_cad_func">Cadastro de Funcionarios</string>
+    <string name="button_cad">Cadastrar</string>
+    <string name="button_cancelar">Cancelar</string>
+    <string name="edit_nome_func">Nome:</string>
+    <string name="edit_cpf_func">CPF:</string>
+    <string name="edit_email_func">E-mail:</string>
+    <string name="edit_fone_func">Telefone:</string>
+    <string name="edit_login_func">Login:</string>
+    <string name="edit_matricula_func">Matricula:</string>
+    <string name="hint_nome_func">Digite o nome do funcionario</string>
+    <string name="hint_cpf_func">Digite o CPF do funcionario</string>
+    <string name="hint_email_func">Digite o e-mail do funcionario</string>
+    <string name="hint_fone_func">Digite o telefone do funcionario</string>
+    <string name="hint_login_func">Digite o login do funcionario</string>
+    <string name="hint_matricula_func">Digite a matricula do funcionario</string>
 </resources>

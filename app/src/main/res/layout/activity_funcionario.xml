@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
+    android:id="@+id/layout_funcionario"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:openDrawer="start"
+    android:background="#009999"
+    >
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -22,4 +26,43 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</android.support.v4.widget.DrawerLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_func"
+        android:textSize="38sp"
+        android:layout_gravity="center"
+        android:textColor="#FF5722"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chama_tela_cad_func"
+        android:onClick="chamaTelaCadFunc"
+        android:layout_marginTop="100sp"
+        android:textSize="20sp"
+        android:background="#4dd0e1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chama_tela_pesq_func"
+        android:onClick="chamaTelaPesqFunc"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        android:background="#4dd0e1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:onClick="voltar"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        android:background="#4dd0e1"
+        />
+</LinearLayout>
