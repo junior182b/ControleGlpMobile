@@ -14,8 +14,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
+import senac.com.controleglpmobile.R;
+import senac.com.controleglpmobile.control.FuncionarioControl;
+
 public class FuncionarioActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private FuncionarioControl control;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +43,9 @@ public class FuncionarioActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        control = new FuncionarioControl(this);
+
     }
 
     @Override
