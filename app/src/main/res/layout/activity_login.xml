@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="16dp"
+    android:outlineAmbientShadowColor="#494949"
+    tools:context=".LoginActivity">
+
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/glpcontrol2"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:hint="@string/hint_glpcont"
+        android:textColorHint="#62727b"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="#26ffffff"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="@string/hint_login"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#26ffffff"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Senha"
+
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:shadowColor="#a4a4a4"
+        android:outlineSpotShadowColor="#a4a4"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:hint="@string/hint_login"/>
+
+
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/hint_ajuda"
+        android:textColorHint="#3f51b5"/>
+    
+
+
+</LinearLayout>
