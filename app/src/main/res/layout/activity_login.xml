@@ -77,7 +77,7 @@
         android:layout_gravity="center"
         android:hint="@string/hint_ajuda"
         android:textColorHint="#3f51b5"/>
-    
+
 
 
 </LinearLayout>

@@ -50,4 +50,37 @@
     <string name="hint_fone_func">Digite o telefone do funcionario</string>
     <string name="hint_login_func">Digite o login do funcionario</string>
     <string name="hint_matricula_func">Digite a matricula do funcionario</string>
+
+    <!--Strings do Login-->
+
+    <string name="hint_login">Login</string>
+    <string name="hint_ajuda">Ajuda</string>
+    <string name="hint_glpcont">GLP CONTROLE</string>
+    <string name="hint_entrar">Entrar</string>
+
+
+    <!--Menus-->
+
+    <string name="menu_estoque">Estoque</string>
+    <string name="menu_movimentaca">Movimentacao</string>
+    <string name="menu_relatorios">Relatórios</string>
+    <string name="menu_clientes">Clientes</string>
+    <string name="menu_ajuda">Ajuda</string>
+    <string name="menu_sair">Sair</string>
+    <string name="menu_funcionario">Funcionario</string>
+    <string name="menu_produto">Produto</string>
+
+    <!--String cadastro Cliente-->
+
+    <string name="edit_razaoSoc">Razão Social</string>
+    <string name="edit_cnpj">CNPJ</string>
+
+
+    <!--String Pessoa-->
+
+    <string name="edit_nome">Nome</string>
+    <string name="edit_email">Email</string>
+    <string name="edit_fone">Telefone</string>
+
+    <!--String Endereço-->
 </resources>
