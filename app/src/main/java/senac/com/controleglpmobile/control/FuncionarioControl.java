@@ -21,5 +21,11 @@ public class FuncionarioControl {
 
     public FuncionarioControl(Activity activity) {
         this.activity = activity;
+
+        initComponents();
+    }
+
+    private void initComponents(){
+
     }
 }
