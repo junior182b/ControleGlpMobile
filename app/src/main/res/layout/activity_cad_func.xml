@@ -33,6 +33,7 @@
         android:textSize="30sp"
         android:layout_gravity="center"
         android:textColor="#FF5722"
+        android:layout_marginBottom="50sp"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -189,7 +190,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/voltar"
+        android:text="@string/button_voltar"
         android:textSize="20sp"
         android:background="#4dd0e1"
         android:layout_margin="5sp"

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#009999"
+    tools:context=".FuncionarioActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_func"
+        android:textSize="38sp"
+        android:layout_gravity="center"
+        android:textColor="#FF5722"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chama_tela_cad_func"
+        android:onClick="chamaTelaCadFunc"
+        android:layout_marginTop="100sp"
+        android:textSize="20sp"
+        android:background="#4dd0e1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chama_tela_pesq_func"
+        android:onClick="chamaTelaPesqFunc"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        android:background="#4dd0e1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_voltar"
+        android:onClick="voltar"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        android:background="#4dd0e1"
+        />
+</LinearLayout>
