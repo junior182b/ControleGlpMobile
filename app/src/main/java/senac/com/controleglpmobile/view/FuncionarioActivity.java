@@ -1,8 +1,9 @@
-package senac.com.controleglpmobile;
+package senac.com.controleglpmobile.view;
 
 import android.app.Activity;
 import android.os.Bundle;
 
+import senac.com.controleglpmobile.R;
 import senac.com.controleglpmobile.control.FuncionarioControl;
 
 public class FuncionarioActivity extends Activity {

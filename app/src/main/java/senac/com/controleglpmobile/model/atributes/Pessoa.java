@@ -7,8 +7,8 @@ import java.util.List;
 public class Pessoa implements Serializable {
 
     private String nome;
-    List<String> listTelefones;
-    List<String> listEmail;
+    private List<String> listTelefones;
+    private List<String> listEmail;
 
     public Pessoa() {
         listTelefones = new ArrayList<>();
