@@ -68,6 +68,9 @@
     <string name="hint_glpcont">GLP CONTROLE</string>
     <string name="hint_entrar">Entrar</string>
 
+    <!--Strings de Erros-->
+
+
 
     <!--Menus-->
 
@@ -91,6 +94,8 @@
     <string name="edit_nome">Nome</string>
     <string name="edit_email">Email</string>
     <string name="edit_fone">Telefone</string>
+    <string name="erro_nome">Nome é Obrigatório</string>
+    <string name="erro_cpf">CPF é obrigatório</string>
 
     <!--String Endereço-->
 </resources>

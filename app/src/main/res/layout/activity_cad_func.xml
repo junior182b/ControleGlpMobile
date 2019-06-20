@@ -12,20 +12,6 @@
     android:background="#009999"
     >
 
-    <!--<android.support.design.widget.NavigationView-->
-        <!--android:id="@+id/nav_view"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_gravity="start"-->
-        <!--android:fitsSystemWindows="true"-->
-        <!--app:headerLayout="@layout/nav_header_cad_func"-->
-        <!--app:menu="@menu/activity_cad_func_drawer" />-->
-
-    <!--<include-->
-        <!--layout="@layout/app_bar_cad_func"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--/>-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -110,6 +96,7 @@
             android:padding="3dp"
             android:background="#fff"
             android:layout_margin="5sp"
+            android:id="@+id/editNome"
             />
         <EditText
             android:layout_width="match_parent"
@@ -119,6 +106,7 @@
             android:padding="3dp"
             android:background="#fff"
             android:layout_margin="5sp"
+            android:id="@+id/editCpf"
             />
         <EditText
             android:layout_width="match_parent"
@@ -128,6 +116,7 @@
             android:padding="3dp"
             android:background="#fff"
             android:layout_margin="5sp"
+            android:id="@+id/editEmail"
             />
         <EditText
             android:layout_width="match_parent"
@@ -137,6 +126,7 @@
             android:padding="3dp"
             android:background="#fff"
             android:layout_margin="5sp"
+            android:id="@+id/editFone"
             />
         <EditText
             android:layout_width="match_parent"
@@ -146,6 +136,7 @@
             android:textColorHint="#000"
             android:background="#fff"
             android:layout_margin="5sp"
+            android:id="@+id/editLogin"
             />
         <EditText
             android:layout_width="match_parent"
@@ -155,6 +146,7 @@
             android:padding="3dp"
             android:background="#fff"
             android:layout_margin="5sp"
+            android:id="@+id/editMatricula"
             />
     </LinearLayout>
     </LinearLayout>
@@ -172,6 +164,7 @@
             android:textSize="20sp"
             android:background="#4dd0e1"
             android:layout_margin="5sp"
+            android:onClick="cadastrar"
             />
         <Button
             android:layout_width="match_parent"
@@ -181,6 +174,7 @@
             android:textSize="20sp"
             android:background="#4dd0e1"
             android:layout_margin="5sp"
+            android:onClick="cancelar"
             />
     </LinearLayout><LinearLayout
     android:layout_width="match_parent"
@@ -195,6 +189,7 @@
         android:background="#4dd0e1"
         android:layout_margin="5sp"
         android:padding="20sp"
+        android:onClick="voltar"
         />
 
 </LinearLayout>
