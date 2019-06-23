@@ -215,7 +215,7 @@ android:gravity="center">
     android:layout_margin="5sp"
     android:background="#4dd0e1"
     android:padding="20sp"
-    android:text="@string/voltar"
+    android:text="@string/button_voltar"
     android:textSize="20sp" />
 
 </LinearLayout>
