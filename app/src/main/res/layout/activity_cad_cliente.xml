@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.CadClienteActivity">
+
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="263dp"
+        android:layoutAnimation="@android:anim/fade_in"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="20sp"
+                android:text="@string/edit_nome"
+                android:textColor="#c43e00"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="122dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20sp"
+                android:text="@string/edit_cnpj"
+                android:textColor="#c43e00"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="43dp"
+                android:layout_marginBottom="20sp"
+                android:text="@string/edit_razaoSoc"
+                android:textColor="#c43e00"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="147dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="20sp"
+                android:text="@string/edit_fone"
+                android:textColor="#c43e00"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#fff"
+                android:hint="@string/hint_nomeCliente"
+                android:padding="3dp"
+                android:textColorHint="#000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#fff"
+                android:hint="@string/hint_cnpjCli"
+                android:padding="3dp"
+                android:textColorHint="#000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#fff"
+                android:hint="@string/hint_email_clinte"
+                android:padding="3dp"
+                android:textColorHint="#000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#fff"
+                android:hint="@string/hint_fone_cliente"
+                android:padding="3dp"
+                android:textColorHint="#000" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="378dp"
+        android:layout_height="256dp">
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="149dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/titulo_cadCliente"
+                android:textColor="#FF5722"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editCep"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_cep"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editLogradouro"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_logradouro" />
+
+            <EditText
+                android:id="@+id/editNumero"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_numero" />
+
+            <EditText
+                android:id="@+id/editBairro"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_bairro" />
+
+            <EditText
+                android:id="@+id/editCidade"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_cidade" />
+
+            <EditText
+                android:id="@+id/editEstado"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_estado" />
+
+            <EditText
+                android:id="@+id/editPais"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_pais" />
+        </LinearLayout>
+
+    </ScrollView>
+
+ <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5sp"
+    android:layout_weight="1"
+    android:background="#4dd0e1"
+    android:text="@string/button_cad"
+    android:textSize="20sp" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:layout_weight="1"
+    android:background="#4dd0e1"
+    android:text="@string/button_cancelar"
+    android:textSize="20sp" />
+</LinearLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:background="#4dd0e1"
+    android:padding="20sp"
+    android:text="@string/voltar"
+    android:textSize="20sp" />
+
+</LinearLayout>
+</LinearLayout>
+
