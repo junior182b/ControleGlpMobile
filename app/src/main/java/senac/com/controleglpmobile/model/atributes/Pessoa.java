@@ -1,25 +1,28 @@
 package senac.com.controleglpmobile.model.atributes;
 
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+@DatabaseTable(tableName = "pessoa")
 public class Pessoa implements Serializable {
-
+    @DatabaseField(allowGeneratedIdInsert = true, generatedId = true)
+    private Integer id;
+    @DatabaseField(columnName = "nome", canBeNull = false, width = 150)
     private String nome;
-    List<String> listTelefones;
-    List<String> listEmail;
 
-    public Pessoa() {
-        listTelefones = new ArrayList<>();
-        listEmail = new ArrayList<>();
+    private List<String> listTelefones;
+    private List<String> listEmail;
 
+    public Pessoa(Integer id, String nome) {
+        this.id = id;
+        this.nome = nome;
     }
 
-    public Pessoa(String nome, List<String> listTelefones, List<String> listEmail) {
-        this.nome = nome;
-        this.listTelefones = listTelefones;
-        this.listEmail = listEmail;
+    public Pessoa() {
     }
 
     public String getNome() {

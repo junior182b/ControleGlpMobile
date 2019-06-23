@@ -31,19 +31,21 @@
     <string name="title_activity_estoque_principal">EstoquePrincipalActivity</string>
     <string name="title_activity_verificar_estoque">VerificarEstoqueActivity</string>
     <string name="title_activity_abrir_estoque">AbrirEstoqueActivity</string>
-    <string name="chama_tela_cad_func">Cadastrar Funcionarios</string>
-    <string name="chama_tela_pesq_func">Pesquisar Funcionarios</string>
-    <string name="voltar">Voltar</string>
+
+    <!--String do Funcionario-->
     <string name="titulo_func">Funcionarios</string>
     <string name="titulo_cad_func">Cadastro de Funcionarios</string>
-    <string name="button_cad">Cadastrar</string>
-    <string name="button_cancelar">Cancelar</string>
+    <string name="titulo_pesq_func">Pesquisa de Funcionarios</string>
+
+    <!--String EditText Funcionario-->
     <string name="edit_nome_func">Nome:</string>
     <string name="edit_cpf_func">CPF:</string>
     <string name="edit_email_func">E-mail:</string>
     <string name="edit_fone_func">Telefone:</string>
     <string name="edit_login_func">Login:</string>
     <string name="edit_matricula_func">Matricula:</string>
+
+    <!--String Hints Funcionario-->
     <string name="hint_nome_func">Digite o nome do funcionario</string>
     <string name="hint_cpf_func">Digite o CPF do funcionario</string>
     <string name="hint_email_func">Digite o e-mail do funcionario</string>
@@ -51,12 +53,23 @@
     <string name="hint_login_func">Digite o login do funcionario</string>
     <string name="hint_matricula_func">Digite a matricula do funcionario</string>
 
+    <!--String botões do Funcionario-->
+    <string name="button_cad">Cadastrar</string>
+    <string name="button_cancelar">Cancelar</string>
+    <string name="button_pesquisar">Pesquisar</string>
+    <string name="button_voltar">Voltar</string>
+    <string name="button_chama_tela_cad_func">Cadastrar Funcionarios</string>
+    <string name="button_chama_tela_pesq_func">Pesquisar Funcionarios</string>
+
     <!--Strings do Login-->
 
     <string name="hint_login">Login</string>
     <string name="hint_ajuda">Ajuda</string>
     <string name="hint_glpcont">GLP CONTROLE</string>
     <string name="hint_entrar">Entrar</string>
+
+    <!--Strings de Erros-->
+
 
 
     <!--Menus-->
@@ -98,6 +111,8 @@
     <string name="edit_nome">Nome</string>
     <string name="edit_email">Email</string>
     <string name="edit_fone">Telefone</string>
+    <string name="erro_nome">Nome é Obrigatório</string>
+    <string name="erro_cpf">CPF é obrigatório</string>
 
 
 </resources>
