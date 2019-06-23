@@ -74,6 +74,23 @@
 
     <string name="edit_razaoSoc">Razão Social</string>
     <string name="edit_cnpj">CNPJ</string>
+    <string name="titulo_cadCliente">Cadastro de cliente</string>
+    <string name="hint_nomeCliente">Digite o nome do cliente</string>
+    <string name="hint_cnpjCli">Digite o CNPJ do cliente</string>
+    <string name="hint_email_clinte">Digite o email do cliente</string>
+    <string name="hint_fone_cliente">Digite o telefone do cliente</string>
+
+
+        <!-- ENDEREÇOS-->
+    <string name="titulo_info_Ende">Informções do Endereço</string>
+    <string name="hint_cep">Cep: </string>
+    <string name="hint_logradouro">Logradouro: </string>
+    <string name="hint_numero">N°: </string>
+    <string name="hint_bairro">Bairro: </string>
+    <string name="hint_cidade">Cidade: </string>
+    <string name="hint_estado">Estado: </string>
+    <string name="hint_pais">Pais: </string>
+
 
 
     <!--String Pessoa-->
@@ -82,5 +99,5 @@
     <string name="edit_email">Email</string>
     <string name="edit_fone">Telefone</string>
 
-    <!--String Endereço-->
+
 </resources>
