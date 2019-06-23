@@ -43,7 +43,7 @@
             android:textSize="20sp"
             android:background="#4dd0e1"
             android:layout_margin="5sp"
-            android:onClick="cadastrar"
+            android:onClick="pesquisar"
             />
         <Button
             android:layout_width="match_parent"
@@ -61,8 +61,7 @@
     <ListView
         android:id="@+id/lista_func"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </ListView>
+        android:layout_height="wrap_content"
+        ></ListView>
 
 </LinearLayout>

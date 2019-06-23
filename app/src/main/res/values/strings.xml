@@ -71,6 +71,17 @@
     <!--Strings de Erros-->
 
 
+    <string name="erro_nome">Nome é Obrigatório</string>
+    <string name="erro_cpf">CPF é obrigatório</string>
+    <string name="erro_email">Email é Obrigatório</string>
+    <string name="erro_fone">Telefone é obrigatório</string>
+    <string name="erro_login">Login é Obrigatório</string>
+    <string name="erro_matricula">Matrícula é obrigatória</string>
+
+    <!--Strings de sucesso-->
+
+    <string name="cad_sucesso">Cadastrado com Sucesso</string>
+    <string name="edit_sucesso">Editado com Sucesso</string>
 
     <!--Menus-->
 
@@ -94,8 +105,6 @@
     <string name="edit_nome">Nome</string>
     <string name="edit_email">Email</string>
     <string name="edit_fone">Telefone</string>
-    <string name="erro_nome">Nome é Obrigatório</string>
-    <string name="erro_cpf">CPF é obrigatório</string>
 
     <!--String Endereço-->
 </resources>
