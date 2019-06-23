@@ -12,7 +12,6 @@
     <LinearLayout
         android:layout_width="373dp"
         android:layout_height="263dp"
-        android:layoutAnimation="@android:anim/fade_in"
         android:orientation="horizontal">
 
         <LinearLayout

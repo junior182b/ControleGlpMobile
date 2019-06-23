@@ -9,7 +9,7 @@
     android:padding="16dp"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
-    android:background="#009999"
+    android:background="#eeeeee"
     >
 
     <TextView
@@ -150,6 +150,89 @@
             />
     </LinearLayout>
     </LinearLayout>
+    <ScrollView
+        android:layout_width="378dp"
+        android:layout_height="256dp">
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="149dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/titulo_cadCliente"
+                android:textColor="#FF5722"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editCep"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/hint_cep"
+                android:textColorHint="#000"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editLogradouro"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="#000"
+                android:hint="@string/hint_logradouro" />
+
+            <EditText
+                android:id="@+id/editNumero"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="#000"
+                android:hint="@string/hint_numero" />
+
+            <EditText
+                android:id="@+id/editBairro"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="#000"
+                android:hint="@string/hint_bairro" />
+
+            <EditText
+                android:id="@+id/editCidade"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="#000"
+                android:hint="@string/hint_cidade" />
+
+            <EditText
+                android:id="@+id/editEstado"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="#000"
+                android:hint="@string/hint_estado" />
+
+            <EditText
+                android:id="@+id/editPais"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="#000"
+                android:hint="@string/hint_pais" />
+        </LinearLayout>
+
+    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
