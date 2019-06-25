@@ -67,7 +67,8 @@
                 android:background="#fff"
                 android:hint="@string/hint_nomeCliente"
                 android:padding="3dp"
-                android:textColorHint="#000" />
+                android:textColorHint="#000"
+                android:id="@+id/editNome"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -76,7 +77,8 @@
                 android:background="#fff"
                 android:hint="@string/hint_cnpjCli"
                 android:padding="3dp"
-                android:textColorHint="#000" />
+                android:textColorHint="#000"
+                android:id="@+id/editCnpj"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -85,7 +87,8 @@
                 android:background="#fff"
                 android:hint="@string/hint_email_clinte"
                 android:padding="3dp"
-                android:textColorHint="#000" />
+                android:textColorHint="#000"
+                android:id="@+id/editEmail"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -94,7 +97,8 @@
                 android:background="#fff"
                 android:hint="@string/hint_fone_cliente"
                 android:padding="3dp"
-                android:textColorHint="#000" />
+                android:textColorHint="#000"
+                android:id="@+id/editFone"/>
 
         </LinearLayout>
     </LinearLayout>

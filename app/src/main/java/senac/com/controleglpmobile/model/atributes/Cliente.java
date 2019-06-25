@@ -13,13 +13,7 @@ public class Cliente extends Pessoa implements Serializable {
     public Cliente() {
     }
 
-    public Cliente(String nome, List<String> listTelefones, List<String> listEmail, String nomeSocial, String cnpj, Endereco endereco, Caminhao caminhao) {
-        super(nome, listTelefones, listEmail);
-        this.nomeSocial = nomeSocial;
-        this.cnpj = cnpj;
-        this.endereco = endereco;
-        this.caminhao = caminhao;
-    }
+
 
     public String getNomeSocial() {
         return nomeSocial;
@@ -53,30 +47,5 @@ public class Cliente extends Pessoa implements Serializable {
         this.caminhao = caminhao;
     }
 
-    public void addTelefone(String novoFone){
-        if(novoFone !=null && !novoFone.trim().isEmpty())
-            listTelefones.add(novoFone);
 
-    }
-    public void addEmail(String novoEmail){
-        if (novoEmail !=null && !novoEmail.trim().isEmpty())
-            listEmail.add(novoEmail);
-
-    }
-    @Override
-    public String toString() {
-        String fones = "";
-        for (String telefone : listTelefones) {
-            fones += telefone + "\n";
-        }
-        String emails = "";
-        for (String email:listEmail){
-            email += email+"\n";
-        }
-        String retorno = "Telefone\n" + fones;
-        retorno += "\n\n";
-        retorno += "Emails\n"+emails;
-
-        return retorno;
-    }
 }
