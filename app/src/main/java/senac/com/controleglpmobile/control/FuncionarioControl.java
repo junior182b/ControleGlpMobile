@@ -113,6 +113,7 @@ public class FuncionarioControl {
         endereco.setCidade(editCidade.getText().toString());
         endereco.setEstado(editEstado.getText().toString());
         endereco.setPais(editPais.getText().toString());
+        funcionario.setEndereco(endereco);
 
 
 
