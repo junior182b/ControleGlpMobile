@@ -163,7 +163,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/titulo_cadCliente"
+                android:text="@string/titulo_info_Ende"
                 android:textColor="#FF5722"
                 android:textSize="30sp" />
 
@@ -185,15 +185,6 @@
                 android:layout_marginBottom="15dp"
                 android:textColorHint="#000"
                 android:hint="@string/hint_logradouro" />
-
-            <EditText
-                android:id="@+id/editNumero"
-                style="@android:style/Widget.EditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:textColorHint="#000"
-                android:hint="@string/hint_numero" />
 
             <EditText
                 android:id="@+id/editBairro"
