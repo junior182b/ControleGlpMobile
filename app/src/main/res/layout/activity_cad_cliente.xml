@@ -51,6 +51,13 @@
                 android:text="@string/edit_fone"
                 android:textColor="#c43e00"
                 android:textSize="20sp" />
+            <TextView
+                android:layout_width="147dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="20sp"
+                android:text="@string/edit_email"
+                android:textColor="#c43e00"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -85,10 +92,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5sp"
                 android:background="#fff"
-                android:hint="@string/hint_email_clinte"
+                android:hint="@string/hint_razaoS_cliente"
                 android:padding="3dp"
                 android:textColorHint="#000"
-                android:id="@+id/editEmail"/>
+                android:id="@+id/editRazaoS"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -99,6 +106,16 @@
                 android:padding="3dp"
                 android:textColorHint="#000"
                 android:id="@+id/editFone"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#fff"
+                android:hint="@string/hint_email_cliente"
+                android:padding="3dp"
+                android:textColorHint="#000"
+                android:id="@+id/editEmail"/>
 
         </LinearLayout>
     </LinearLayout>
@@ -117,7 +134,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/titulo_cadCliente"
+                android:text="@string/titulo_info_Ende"
                 android:textColor="#FF5722"
                 android:textSize="30sp" />
 
@@ -138,13 +155,6 @@
                 android:layout_marginBottom="15dp"
                 android:hint="@string/hint_logradouro" />
 
-            <EditText
-                android:id="@+id/editNumero"
-                style="@android:style/Widget.EditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:hint="@string/hint_numero" />
 
             <EditText
                 android:id="@+id/editBairro"
@@ -194,7 +204,8 @@ android:orientation="horizontal">
     android:layout_weight="1"
     android:background="#4dd0e1"
     android:text="@string/button_cad"
-    android:textSize="20sp" />
+    android:textSize="20sp"
+    android:onClick="cadastrar"/>
 
 <Button
     android:layout_width="match_parent"
