@@ -18,6 +18,7 @@ import java.util.Collections;
 
 import senac.com.controleglpmobile.R;
 import senac.com.controleglpmobile.dao.FuncionarioDao;
+import senac.com.controleglpmobile.model.atributes.Endereco;
 import senac.com.controleglpmobile.model.atributes.Funcionario;
 import senac.com.controleglpmobile.view.CadFuncActivity;
 import senac.com.controleglpmobile.view.PesqFuncActivity;
@@ -31,10 +32,16 @@ public class FuncionarioControl {
     private EditText editFone;
     private EditText editLogin;
     private EditText editMatricula;
+    private EditText editCep;
+    private EditText editLogradouro;
+    private EditText editBairro;
+    private EditText editCidade;
+    private EditText editEstado;
+    private EditText editPais;
     private ListView lvFuncionarios;
     private ArrayAdapter<Funcionario> adapterFunc;
 
-
+    private Endereco endereco;
     private Funcionario funcionario = null;
     private FuncionarioDao funcDao;
     
@@ -68,6 +75,12 @@ public class FuncionarioControl {
         editFone = activity.findViewById(R.id.editFone);
         editLogin = activity.findViewById(R.id.editLogin);
         editMatricula = activity.findViewById(R.id.editMatricula);
+        editCep = activity.findViewById(R.id.editCep);
+        editLogradouro = activity.findViewById(R.id.editLogradouro);
+        editBairro = activity.findViewById(R.id.editBairro);
+        editCidade = activity.findViewById(R.id.editCidade);
+        editEstado = activity.findViewById(R.id.editEstado);
+        editPais = activity.findViewById(R.id.editPais);
     }
 
     public void chamaTelaCadFuncAction() {
@@ -94,6 +107,15 @@ public class FuncionarioControl {
         funcionario.setListTelefones(Collections.singletonList(editFone.getText().toString()));
         funcionario.setUsuario(editLogin.getText().toString());
         funcionario.setMatricula(editMatricula.getText().toString());
+        endereco.setCep(editCep.getText().toString());
+        endereco.setLogradouto(editLogradouro.getText().toString());
+        endereco.setBairro(editBairro.getText().toString());
+        endereco.setCidade(editCidade.getText().toString());
+        endereco.setEstado(editEstado.getText().toString());
+        endereco.setPais(editPais.getText().toString());
+        funcionario.setEndereco(endereco);
+
+
 
         if (funcionario.getNome().trim().isEmpty()){
             Toast.makeText(activity, R.string.erro_nome, Toast.LENGTH_LONG).show();

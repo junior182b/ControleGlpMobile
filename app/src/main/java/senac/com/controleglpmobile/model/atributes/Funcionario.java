@@ -1,12 +1,18 @@
 package senac.com.controleglpmobile.model.atributes;
 
-import java.util.List;
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
 
+@DatabaseTable(tableName = "funcionario")
 public class Funcionario extends Pessoa{
 
+    @DatabaseField(columnName = "cpf",canBeNull = false, width = 50)
     private String cpf;
+    @DatabaseField(columnName = "matricula", canBeNull = false)
     private String matricula;
+    @DatabaseField(columnName = "usuario", canBeNull = false)
     private String usuario;
+    @DatabaseField(foreign = true, foreignAutoRefresh = true)
     private Endereco endereco;
 
     public Funcionario() {

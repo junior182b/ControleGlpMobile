@@ -33,11 +33,13 @@
     <string name="title_activity_abrir_estoque">AbrirEstoqueActivity</string>
 
     <!--String do Funcionario-->
+
     <string name="titulo_func">Funcionarios</string>
     <string name="titulo_cad_func">Cadastro de Funcionarios</string>
     <string name="titulo_pesq_func">Pesquisa de Funcionarios</string>
 
     <!--String EditText Funcionario-->
+
     <string name="edit_nome_func">Nome:</string>
     <string name="edit_cpf_func">CPF:</string>
     <string name="edit_email_func">E-mail:</string>
@@ -46,6 +48,7 @@
     <string name="edit_matricula_func">Matricula:</string>
 
     <!--String Hints Funcionario-->
+
     <string name="hint_nome_func">Digite o nome do funcionario</string>
     <string name="hint_cpf_func">Digite o CPF do funcionario</string>
     <string name="hint_email_func">Digite o e-mail do funcionario</string>
@@ -54,6 +57,7 @@
     <string name="hint_matricula_func">Digite a matricula do funcionario</string>
 
     <!--String botões do Funcionario-->
+
     <string name="button_cad">Cadastrar</string>
     <string name="button_cancelar">Cancelar</string>
     <string name="button_pesquisar">Pesquisar</string>
@@ -106,7 +110,7 @@
     <string name="hint_razaoS_cliente">Digite Razao Social cliente</string>
 
 
-        <!-- ENDEREÇOS-->
+    <!-- ENDEREÇOS-->
     <string name="titulo_info_Ende">Informções do Endereço</string>
     <string name="hint_cep">Cep: </string>
     <string name="hint_logradouro">Logradouro: </string>
@@ -117,12 +121,17 @@
     <string name="hint_pais">Pais: </string>
 
 
-
     <!--String Pessoa-->
 
     <string name="edit_nome">Nome</string>
     <string name="edit_email">Email</string>
     <string name="edit_fone">Telefone</string>
+
+    <!--Strings do produto-->
+
+    <string name="button_cad_prod">Cadastro de Produtos</string>
+    <string name="button_pesq_prod">Pesquisar Produtos</string>
+    <string name="titulo_prod">Produtos</string>
 
 
 </resources>
