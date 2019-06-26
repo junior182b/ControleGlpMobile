@@ -105,8 +105,9 @@
     <string name="titulo_cadCliente">Cadastro de cliente</string>
     <string name="hint_nomeCliente">Digite o nome do cliente</string>
     <string name="hint_cnpjCli">Digite o CNPJ do cliente</string>
-    <string name="hint_email_clinte">Digite o email do cliente</string>
+    <string name="hint_email_cliente">Digite o email do cliente</string>
     <string name="hint_fone_cliente">Digite o telefone do cliente</string>
+    <string name="hint_razaoS_cliente">Digite Razao Social cliente</string>
 
 
     <!-- ENDEREÇOS-->
