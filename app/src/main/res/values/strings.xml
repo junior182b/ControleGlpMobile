@@ -128,9 +128,9 @@
     <string name="edit_fone">Telefone</string>
 
     <!--Strings do produto-->
-
-    <string name="button_cad_prod">Cadastro de Produtos</string>
-    <string name="button_pesq_prod">Pesquisar Produtos</string>
+    <string name="titulo_produtos">Produtos</string>
+    <string name="button_cad_prod">Cadastrar Produto</string>
+    <string name="button_pesq_prod">Pesquisar Produto</string>
     <string name="titulo_prod">Produtos</string>
 
 

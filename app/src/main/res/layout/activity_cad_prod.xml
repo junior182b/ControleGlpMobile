@@ -4,46 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#eeeeee"
+    android:orientation="vertical"
     tools:context=".Cad_Produto">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="38sp"
         android:layout_gravity="center"
+        android:text="@string/titulo_produtos"
         android:textColor="#FF5722"
-        />
+        android:textSize="38sp" />
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_cad_prod"
-        android:onClick="chamaTelaCadProduto"
-        android:layout_marginTop="100sp"
-        android:textSize="20sp"
-        android:background="#4dd0e1"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_pesq_prod"
-        android:onClick="chamaTelaPesqProduto"
-        android:layout_marginTop="25sp"
-        android:textSize="20sp"
-        android:background="#4dd0e1"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_voltar"
-        android:onClick="voltar"
-        android:layout_marginTop="25sp"
-        android:textSize="20sp"
-        android:background="#4dd0e1"
-        />
+  
 
 </LinearLayout>
